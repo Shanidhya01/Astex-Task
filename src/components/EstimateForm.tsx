@@ -1,6 +1,3 @@
-// Ensure the submit button stays inside and aligns correctly on tablet
-import React from "react";
-
 export default function EstimateForm() {
   return (
     <div className="bg-white rounded-2xl shadow-xl border px-4 sm:px-6 py-5">

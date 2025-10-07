@@ -7,10 +7,12 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "docx": "node scripts/make-readme-docx.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
+    "docx": "^9.5.1",
     "lucide-react": "^0.544.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
